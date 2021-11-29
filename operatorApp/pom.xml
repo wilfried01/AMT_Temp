@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>labo-amt</artifactId>
+        <groupId>ch.heig.amt2021</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>operatorApp</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>fish.payara.extras</groupId>
+            <artifactId>ejb-http-client</artifactId>
+            <version>5.2020.4</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.heig.amt2021</groupId>
+            <artifactId>locationApp</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.javatuples</groupId>
+            <artifactId>javatuples</artifactId>
+            <version>1.2</version>
+        </dependency>
+    </dependencies>
+</project>
